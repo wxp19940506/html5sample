@@ -1,0 +1,22 @@
+<!-- (C) 2016 Conviva, Inc. All rights reserved. Confidential and proprietary. -->
+<!-- Kedar Marsada <kmarsada@conviva.com> -->
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<script type="text/javascript" src="lib/hasplayer.js"></script>
+		<script type="text/javascript" src="lib/dash.all.min.js"></script>
+		<script type="text/javascript" src="lib/hls.min.js"></script>
+		<script type="text/javascript" src="app/configs.js"></script>
+	</head>
+	<body>
+		<div id="container">
+			<video controls=true width=640 height=480 id="videoPlayer"></video>
+		</div>
+		<script type="text/javascript" src="conviva/conviva-html5native-library.min.js"></script>
+		<script type="text/javascript" src="conviva/conviva-html5native-impl.js"></script>
+		<script type="text/javascript" src="conviva/conviva-html5native-library.min.js"></script>
+		<script type="text/javascript" src="app/videoPlayer.js"></script>
+ 		<script type="text/javascript" src="app/html5NativeHandshake.js"></script>
+ 		<div><button id="cleanup" onclick="cleanupSession()">Clean up session</button></div>
+	</body>
+</html>
